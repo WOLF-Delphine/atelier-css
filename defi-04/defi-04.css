@@ -1,0 +1,30 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 24px 24px;
+}
+
+section{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+}
+div{
+    flex: 1;
+
+}
+img{
+    max-width: 480px;
+    height: auto;
+}
+h2{
+    margin-bottom: 16px;
+}
